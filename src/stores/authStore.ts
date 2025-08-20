@@ -9,6 +9,10 @@ export const authStore = map<AuthState>({
 });
 
 export const loginSuccess = (user: UserProfile) => {
+  // Update localStorage
+  if(user.accessToken){
+    localStorage.setItem('token', user.accessToken);
+  }
   authStore.set({
     isLoggedIn: true,
     user,

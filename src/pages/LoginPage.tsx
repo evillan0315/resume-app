@@ -50,6 +50,7 @@ const LoginPage: React.FC = () => {
         role: (userRole as UserProfile['role']) || 'USER',
         username: username ? decodeURIComponent(username) : undefined,
         provider: (provider as UserProfile['provider']) || undefined,
+        accessToken,
       };
       loginSuccess(user);
       navigate('/', { replace: true }); // Redirect to home page upon successful login

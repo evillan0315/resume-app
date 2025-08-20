@@ -9,6 +9,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<ResumeGeneratorPage />} />
         <Route path="/login" element={<LoginPage />} /> {/* Add login route */}
+        <Route path="/auth/callback" element={<LoginPage />} /> 
         {/* Add more routes here as needed */}
       </Route>
     </Routes>

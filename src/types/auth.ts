@@ -6,6 +6,7 @@ export interface UserProfile {
   role: 'USER' | 'ADMIN' | 'MANAGER' | 'SUPERADMIN'; // Mirroring backend Role enum
   username?: string;
   provider?: 'google' | 'github';
+  accessToken?: string;
 }
 
 export interface AuthState {
