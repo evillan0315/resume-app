@@ -90,8 +90,8 @@ resume-app/
 1.  **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/resume-ai-assistant-frontend.git
-    cd resume-ai-assistant-frontend
+    git clone https://github.com/evillan0315/resume-app.git
+    cd resume-app
     ```
 
 2.  **Install dependencies**:
@@ -194,10 +194,8 @@ This command will compile the TypeScript code and bundle the assets into the `di
 
 We welcome contributions! Please follow these steps to contribute:
 
-1.  Fork the repository.
+1.  Fork the [repository](https://github.com/evillan0315/resume-app).
 2.  Create a new branch for your feature or bug fix.
 3.  Make your changes.
 4.  Ensure all tests pass and linting rules are followed.
 5.  Submit a pull request.
-
-For more detailed contribution guidelines, please refer to `CONTRIBUTING.md` (placeholder).

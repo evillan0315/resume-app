@@ -16,6 +16,7 @@ Welcome to the **Resume AI Assistant**, a powerful web application designed to h
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [License](#license)
+- [Author & Contact](#author--contact)
 
 ## Features
 
@@ -69,8 +70,8 @@ Before you begin, ensure you have the following installed:
 1.  **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/resume-ai-assistant-frontend.git
-    cd resume-ai-assistant-frontend
+    git clone https://github.com/evillan0315/resume-app.git
+    cd resume-app
     ```
 
 2.  **Install dependencies**:
@@ -111,7 +112,7 @@ Before you begin, ensure you have the following installed:
 
 ### Backend Setup
 
-This frontend application requires a running backend service to provide AI capabilities and authentication. Please refer to the [backend repository](https://github.com/your-username/resume-ai-assistant-backend) (placeholder link) for setup instructions. Ensure your backend is configured to run on the `VITE_API_URL` specified in your `.env` file (e.g., `http://localhost:3000`).
+This frontend application requires a running backend service to provide AI capabilities and authentication. Please refer to the [backend repository](https://github.com/evillan0315/project-board-server) for setup instructions. Ensure your backend is configured to run on the `VITE_API_URL` specified in your `.env` file (e.g., `http://localhost:3000`).
 
 ## Usage
 
@@ -132,8 +133,40 @@ For a more detailed guide on how to use the application, please refer to the [Us
 
 ## Contributing
 
-We welcome contributions to the Resume AI Assistant! Please see our [Contributing Guidelines](CONTRIBUTING.md) (placeholder) for details on how to get started, report bugs, and suggest features.
+We welcome contributions to the Resume AI Assistant! Here are some ways you can contribute:
+
+- **Report Bugs**: If you find any issues, please open an issue on the [GitHub repository](https://github.com/evillan0315/resume-app/issues).
+- **Suggest Features**: Have an idea for a new feature? Open an issue to discuss it.
+- **Submit Pull Requests**: Feel free to fork the repository, make your changes, and submit a pull request. Please ensure your code adheres to the project's coding standards and includes relevant tests.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) (placeholder) file for details.
+This project is licensed under the MIT License.
+
+**MIT License**
+
+Copyright (c) 2024 Eddie Villanueva
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Author & Contact
+
+- **Author**: Eddie Villanueva
+- **GitHub**: [https://github.com/evillan0315](https://github.com/evillan0315)
+- **Email**: [evillan0315@gmail.com](mailto:evillan0315@gmail.com)
